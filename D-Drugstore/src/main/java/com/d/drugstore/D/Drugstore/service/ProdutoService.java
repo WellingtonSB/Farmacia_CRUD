@@ -45,9 +45,8 @@ public class ProdutoService {
 		} else if (produto.getCategorias().getId() == 2) {
 
 			produto.setPLU(2);
-		} else {
-
-		}
+		} 
+		//incluir o restante das possiveis PLUs
 
 		return produto;
 
